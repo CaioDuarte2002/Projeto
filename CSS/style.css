@@ -1,0 +1,59 @@
+* {
+    margin: 0px;
+    padding: 0px;    
+    box-sizing: border-box;
+  }
+  header {
+    height: 100px; 
+    background-image: url("../img/brazilflag.jpg");
+    background-size: 90% cover;
+    background-position-y: -400px;
+    padding-top: 200px;
+    text-align: center;
+  }
+  h1 {
+    font-family: verdana;
+    font-size: 30pt;
+    color: rgb(0, 0, 0);
+  }
+
+  main p {
+
+    line-height: 30px
+  }
+  #imghistoria {
+    text-align: center;
+    widght: 90%;
+    margin-left: auto;
+    margin-auto: auto;
+  }
+
+  #imghome {
+    text-align: center;
+  }
+  
+  #imghistoria img {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    opacity: 0.7;
+    margin: 20px;
+    transition: ease 1s;    
+  }
+ 
+#imghistoria img:hover {
+    opacity: 1;
+   
+    height: 200px; 
+    transform: scale(1.2);
+    /* transform: rotate(360deg); */
+    /* girar a imagem 360 graus */
+  }
+
+  #videohistoria {
+    width: 100%;
+   text-align: center;
+  }
+  
+  
+  
